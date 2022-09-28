@@ -30,7 +30,7 @@ class ItemsController < ApplicationController
   end
 
   def item_params
-    params.permit(:name, :description, :user_id)
+    params.permit(:name, :description, :price, :user_id)
   end
 
 end
